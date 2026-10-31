@@ -1,0 +1,15 @@
+{
+  "name": "albuquerque-discord",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@discord/embedded-app-sdk": "latest"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
