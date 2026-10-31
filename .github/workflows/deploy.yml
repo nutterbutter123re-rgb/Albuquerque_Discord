@@ -19,6 +19,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - run: npm install && npm run build
+      - run: cp public/video.mp4 dist/video.mp4
       - uses: actions/upload-pages-artifact@v3
         with: { path: dist }
       - id: deployment
